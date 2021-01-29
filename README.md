@@ -146,7 +146,7 @@ ggplot(cb, aes(x = PctRed, y = Diff, fill = pos)) +
   scale_fill_manual(values = c("firebrick1", "forestgreen"), guide = FALSE)
 
 ggplot(bc, aes(x = Time, y = Score, color = Team)) +
-  geom_line() +
+  geom_line(size = 1) +
   scale_color_manual(values = c("blue", "red"), guide = FALSE)
 
 
