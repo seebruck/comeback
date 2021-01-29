@@ -143,11 +143,11 @@ library(ggplot2)
 
 ggplot(cb, aes(x = PctRed, y = Diff, fill = pos)) +
   geom_bar(stat = "identity", position = "identity") +
-  scale_fill_manual(values = c("red", "blue"), guide = FALSE)
+  scale_fill_manual(values = c("firebrick1", "forestgreen"), guide = FALSE)
 
 ggplot(bc, aes(x = Time, y = Score, color = Team)) +
   geom_line() +
-  scale_color_manual(values = c("red", "blue"), guide = FALSE)
+  scale_color_manual(values = c("blue", "red"), guide = FALSE)
 
 
 
