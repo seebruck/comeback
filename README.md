@@ -1,3 +1,4 @@
+```
 cb <- structure(list(Time = 1:99, Red = c(1L, 2L, 2L, 2L, 2L, 2L, 2L, 
 3L, 3L, 4L, 4L, 4L, 4L, 4L, 5L, 6L, 7L, 8L, 8L, 9L, 10L, 11L, 
 11L, 11L, 11L, 11L, 12L, 12L, 12L, 12L, 13L, 13L, 13L, 14L, 15L, 
@@ -148,6 +149,6 @@ ggplot(cb, aes(x = PctRed, y = Diff, fill = pos)) +
 ggplot(bc, aes(x = Time, y = Score, color = Team)) +
   geom_line(size = 1) +
   scale_color_manual(values = c("blue", "red"), guide = FALSE)
-
+```
 
 
